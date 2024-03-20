@@ -4,4 +4,7 @@ const ctx = canvas.getContext('2d');
 
 ctx.beginPath();
 ctx.arc(100, 100, 20, 0, 2*Math.PI);
-ctx.stri
+ctx.strokeStyle = "black";
+ctx.stroke();
+ctx.fillStyle = "red";
+ctx.fill();

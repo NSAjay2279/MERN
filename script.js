@@ -3,7 +3,7 @@ const ctx = canvas.getContext('2d');
 
 function drawBall(x, y, r){
     ctx.beginPath();
-    ctx.arc(100, 100, 20, 0, 2 * Math.PI);
+    ctx.arc(x, y, r, 0, 2 * Math.PI);
     ctx.strokeStyle = "black";
     ctx.stroke();
     ctx.fillStyle = "red";
